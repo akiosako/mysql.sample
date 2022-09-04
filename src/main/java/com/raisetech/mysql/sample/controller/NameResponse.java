@@ -1,4 +1,4 @@
-package com.raisetech.mysql.sample.Controller;
+package com.raisetech.mysql.sample.controller;
 
 import com.raisetech.mysql.sample.entity.Name;
 import lombok.AllArgsConstructor;
@@ -12,6 +12,6 @@ public class NameResponse {
 
     public NameResponse(Name name) {
         this.name = name.getName();
-        
+
     }
 }
