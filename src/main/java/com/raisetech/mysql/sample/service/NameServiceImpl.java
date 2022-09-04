@@ -8,7 +8,7 @@ import java.util.List;
 
 @Service
 public class NameServiceImpl implements NameService {
-    private NameMapper nameMapper;
+    private final NameMapper nameMapper;
 
     public NameServiceImpl(NameMapper nameMapper) {
         this.nameMapper = nameMapper;
